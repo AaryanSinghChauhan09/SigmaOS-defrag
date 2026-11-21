@@ -1,5 +1,5 @@
 [package]
-name = "defrag"
+name = "sigmaos-defrag"
 version = "0.1.0"
 edition = "2021"
 rust-version = "1.75"
@@ -12,7 +12,7 @@ categories = ["os"]
 publish = false
 
 [lib]
-name = "defrag_lib"
+name = "sigmaos_defrag"
 path = "src/lib.rs"
 crate-type = ["rlib"]
 

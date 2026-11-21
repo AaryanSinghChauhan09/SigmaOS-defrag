@@ -2,7 +2,7 @@
 //!
 //! The library lives in `src/lib.rs`; this binary only wires argv/stdout.
 
-use defrag_lib::{Component, ComponentLifecycle};
+use sigmaos_defrag::{Component, ComponentLifecycle};
 
 fn main() {
     let mut component = Component::new();

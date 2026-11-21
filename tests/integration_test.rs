@@ -1,6 +1,6 @@
 //! Integration tests for defrag.
 
-use defrag_lib::{Component, ComponentLifecycle};
+use sigmaos_defrag::{Component, ComponentLifecycle};
 
 #[test]
 fn component_initialises_and_runs() {

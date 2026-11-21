@@ -1,10 +1,13 @@
-//! defrag — Disk defragmentation: jobs, extents, free-space consolidation
+//! SigmaOS-defrag — Disk defragmentation: jobs, extents, free-space consolidation
 //!
 //! Part of the SigmaOS multi-repository component ecosystem. This crate
 //! declares its interface in `COMPONENT.toml` (`provides` / `depends_on`).
 
 #![forbid(unsafe_code)]
 #![warn(missing_docs)]
+
+/// Disk defragmentation module.
+pub mod sigmadefrag;
 
 /// Errors raised by this component.
 #[derive(Debug, thiserror::Error)]
